@@ -29,9 +29,9 @@ function App() {
 
 
     const time = setTimeout(() => {
-      surprisebox.textContent = "You probably know what to do :&#41;";
+      surprisebox.textContent = "You probably know what to do 🐽";
       sound.pause();
-      input.disabled=false
+      inputbox.disabled=false
       clearTimeout(time);
     }, 29000);
 
